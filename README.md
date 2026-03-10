@@ -1,6 +1,6 @@
 # ScreenDrawing
 
-![ScreenDrawing](ScreenDrawing.png)
+![ScreenDrawing](screendrawing.png)
 
 Lightweight **screen drawing and annotation tool** for Linux and Windows.
 
