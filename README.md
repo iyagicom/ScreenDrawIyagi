@@ -42,12 +42,18 @@ Perfect for presentations, lectures, screen sharing, and visual reviews.
 
 ## 🎮 Keyboard Shortcuts
 
-| Key | Action |
-|---|---|
-| ESC / Q | Quit the app |
-| Ctrl + Z | Undo |
-| S | Save snapshot |
-| Delete / C | Clear canvas |
+| Key            | Function                                       |
+|----------------|------------------------------------------------|
+| `Ctrl + Z`     | Undo                                           |
+| `Ctrl + S`     | Save (transparent PNG)                         |
+| `Ctrl + Q`     | Exit                                           |
+| `C`            | Clear canvas                                   |
+| `ESC`          | Exit (or cancel text input if active)          |
+| Hold `Ctrl`    | Temporary eraser (restores on release)         |
+| Hold `Shift`   | Temporary straight line (restores on release)  |
+| `Ctrl + Enter` | Confirm text (draw on canvas)                  |
+| Drawing ✎      | Single click → clear canvas + switch to mouse mode        |
+|                | Double click → keep drawing + switch to mouse mode        |
 
 ---
 
