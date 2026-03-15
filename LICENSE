@@ -1,46 +1,60 @@
 IYAGI SOFTWARE LICENSE AGREEMENT
 
-Copyright (c) 2026 IYAGI INC.
+Copyright (c) 2026 IYAGI INC
 All rights reserved.
 
-This repository distributes executable binaries only.
+This software is distributed as executable files only.
 The source code is not publicly available.
 
-1. License Grant
+---
 
-You are granted a limited, non-exclusive, non-transferable license
-to download and use this software for personal, non-commercial purposes.
+1. PERSONAL USE
 
-2. Restrictions
+The Linux version of this software may be used free of charge for personal and commercial purposes.
+
+---
+
+2. WINDOWS VERSION
+
+The Windows version is available as a paid application via the Microsoft Store.
+
+For company-wide deployment, offline installation, or volume licensing,
+a commercial license is required.
+
+---
+
+3. COMMERCIAL LICENSING
+
+Commercial licensing options for Windows:
+
+* Single PC License: USD $12
+* 10 PCs Volume License: USD $80
+* Unlimited Company License: USD $150
+
+Custom licensing options may be available for large-scale deployments.
+
+---
+
+4. RESTRICTIONS
 
 You may not:
 
-* redistribute the software
-* modify the software
-* create derivative works
-* reverse engineer, decompile, or disassemble the software
-* use the software for commercial purposes
+* Redistribute the software without permission
+* Modify or reverse engineer the software
+* Resell or sublicense the software
 
-without prior written permission from IYAGI INC.
+---
 
-3. Ownership
+5. NO WARRANTY
 
-The software and all intellectual property rights remain the
-exclusive property of IYAGI INC.
+This software is provided "as is", without warranty of any kind.
+The author shall not be liable for any damages arising from the use of this software.
 
-4. Disclaimer
+---
 
-The software is provided "AS IS", without warranty of any kind.
+6. CONTACT
 
-5. Limitation of Liability
+For commercial licensing inquiries:
 
-IYAGI INC shall not be liable for any damages arising from the use
-or inability to use the software.
-
-6. Commercial License
-
-Commercial use requires a separate commercial license.
-
-7. Contact
-
-[iyagicom@gmail.com](mailto:iyagicom@gmail.com)
+IYAGI INC
+Email: [iyagicom@gmail.com](mailto:iyagicom@gmail.com)
