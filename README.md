@@ -1,131 +1,94 @@
-# ScreenDrawing
+# ScreenDrawIyagi(스크린드라이야기) v1.9.0
 
 ![ScreenDrawing](screendrawing.png)
 
-Lightweight **screen drawing and annotation tool** for Linux and Windows.
+A **screen annotation and drawing overlay tool** for Windows and Linux.
 
-ScreenDrawing runs as a transparent fullscreen overlay that lets you draw directly on the screen for presentations, tutorials, demonstrations, and explanations.
+Draw lines, shapes, text, and emoji stamps directly on top of your running screen — no screenshot needed.
+Perfect for presentations, lectures, screen sharing, and visual reviews.
 
 ---
 
 ## ✨ Features
 
 ### Drawing Tools
-
 * **Pen** — freehand drawing
-* **Rectangle** — drag to draw a rectangle
-* **Ellipse** — drag to draw an ellipse
-* **Line** — draw a straight line
-* **Arrow** — draw arrows
-* **Text** — place inline text on the screen
+* **Line / Arrow** — draw straight lines and directional arrows
+* **Rectangle / Ellipse** — draw shapes (with optional fill mode)
+* **Text** — type directly on screen (font and size configurable)
+* **Emoji Stamp** — pick an emoji and stamp it anywhere on screen
+* **Eraser** — erase parts of your drawing
+* **Highlighter** — semi-transparent highlight overlay
 
-### Options
+### Color & Style
+* **Color picker** — choose any pen color
+* **Stroke width** — adjust line thickness from 1 to 120px
+* **Fill mode** — toggle filled rectangles and ellipses
+* **Highlighter mode** — highlight existing screen content with transparency
 
-* **Fill shapes**
-* **Highlight mode**
-* **Eraser tool**
-* **Color picker**
-* **Adjustable stroke width**
-* **Font selector**
+### Emoji Picker
+* **9 categories** — Expressions / Hands & Body / Hearts / Animals / Food / Activities / Travel / Objects / Symbols
+* **Stamp mode** — click anywhere to stamp the selected emoji in a 3D ink style
+* **Text insert** — insert emoji directly into text input while typing
 
 ### Convenience
-
-* **Undo (up to 50 steps)**
-* **Clear canvas**
-* **Save drawing as transparent PNG**
-* **Auto-save settings**
-
-### Other
-
-* Lightweight
-* Fullscreen transparent overlay
-* Automatic language detection (Korean / English)
-
----
-
-## ⚡ Quick Start (Linux)
-
-Download the Linux binary from **Releases**.
-
-Run:
-
-```bash
-chmod +x screendrawing
-./screendrawing
-```
-
----
-
-## 🖥 Platforms
-
-Supported platforms:
-
-* Linux
-* Windows
-
----
-
-## ⬇ Download
-
-### Linux
-
-Download from GitHub Releases:
-
-https://github.com/iyagicom/ScreenDrawing/releases
-
-After downloading:
-
-```bash
-chmod +x screendrawing
-./screendrawing
-```
-
----
-
-### Windows
-
-Install from Microsoft Store:
-
-https://apps.microsoft.com/detail/9nqrzzghxmtc
+* **Undo** — step back to the previous state
+* **Snapshot** — save the current drawing as an image file
+* **Clear all** — reset the canvas
+* **Floating toolbar** — drag the toolbar anywhere on screen
+* **Settings persistence** — last used color, width, font, and tool are saved automatically
 
 ---
 
 ## 🎮 Keyboard Shortcuts
 
-| Key          | Function                |
-| ------------ | ----------------------- |
-| Ctrl + Z     | Undo                    |
-| Ctrl + S     | Save PNG                |
-| Ctrl + Q     | Exit                    |
-| C            | Clear canvas            |
-| ESC          | Exit or cancel text     |
-| Hold Ctrl    | Temporary eraser        |
-| Hold Shift   | Temporary straight line |
-| Ctrl + Enter | Confirm text            |
+| Key | Action |
+|---|---|
+| ESC / Q | Quit the app |
+| Ctrl + Z | Undo |
+| S | Save snapshot |
+| Delete / C | Clear canvas |
 
 ---
 
-## 💾 Save Behavior
+## ⬇ Download
 
-The **Save** button exports the drawing layer as a transparent PNG.
+### Windows
+Install from the Microsoft Store.
+(Store link coming soon)
 
-Example uses:
+### Linux
+Download the binary from GitHub Releases.
 
-* tutorial images
-* presentation slides
-* video annotation
-* image compositing
-
-To capture the full screen including drawings, use a screenshot tool while ScreenDrawing is running.
+```bash
+chmod +x ScreenDrawIyagi
+./ScreenDrawIyagi
+```
 
 ---
 
-## 📌 Notes
+## 🐧 Linux Setup
 
-* Runs as a transparent fullscreen overlay
-* Does not modify the desktop itself
-* Settings are automatically saved on exit
-* Settings are restored on next launch
+Qt6 platform plugins are required.
+
+```bash
+sudo apt install libqt6widgets6 libqt6-xcb-private-plugins
+```
+
+Emoji font (if not already installed):
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+On Wayland, the app runs automatically via XWayland.
+
+---
+
+## 🖥 Supported Platforms
+
+* Windows 10 / 11
+* Linux (GNOME Wayland / X11)
 
 ---
 
@@ -139,8 +102,9 @@ GitHub: https://github.com/iyagicom
 
 ## 📜 License
 
-This project distributes **binary releases only**.
+Copyright (c) 2026 IYAGI INC. All rights reserved.
 
-The source code is not publicly available.
+This software is provided as **executable files only**. Source code is not publicly available.
 
-See the LICENSE file for details.
+You may use this software for personal and non-commercial purposes.
+Redistribution, modification, or reverse engineering is prohibited without explicit written permission from the author.
