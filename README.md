@@ -1,24 +1,28 @@
-# ScreenDrawIyagi(스크린드라이야기) v1.9.0
+# ScreenDrawIyagi v1.9.0
 
 ![ScreenDrawing](screendrawing.png)
 
 A **screen annotation and drawing overlay tool** for Windows and Linux.
 
-Draw lines, shapes, text, and emoji stamps directly on top of your running screen — no screenshot needed.
-Perfect for presentations, lectures, screen sharing, and visual reviews.
+Pick any color, adjust stroke width, fill shapes, highlight with semi-transparent emphasis, type text in your preferred font, and stamp emoji from a 9-category picker. Undo mistakes, save a snapshot, or clear everything at once.
+
+Use the Drawing ✎ tool to temporarily switch to mouse mode and interact with apps on the desktop, then switch back to drawing mode. Switching with a single click clears your current drawing; switching with a double click preserves it when you return.
+
+The floating toolbar can be dragged anywhere on screen, and your last settings are saved automatically so you're always ready.
 
 ---
 
 ## ✨ Features
 
 ### Drawing Tools
-* **Pen** — freehand drawing
+* **Pen** — freehand drawing in any color and width
 * **Line / Arrow** — draw straight lines and directional arrows
 * **Rectangle / Ellipse** — draw shapes (with optional fill mode)
-* **Text** — type directly on screen (font and size configurable)
-* **Emoji Stamp** — pick an emoji and stamp it anywhere on screen
-* **Eraser** — erase parts of your drawing
-* **Highlighter** — semi-transparent highlight overlay
+* **Text** — type directly on screen with configurable font and size
+* **Emoji Stamp** — choose from 400+ emoji across 9 categories and stamp anywhere
+* **Eraser** — erase specific areas of your drawing
+* **Highlighter** — semi-transparent overlay to emphasize screen content
+* **Drawing ✎** — temporarily switch to mouse mode to interact with content underneath; single click clears canvas + switches, double click keeps drawing + switches
 
 ### Color & Style
 * **Color picker** — choose any pen color
@@ -42,18 +46,18 @@ Perfect for presentations, lectures, screen sharing, and visual reviews.
 
 ## 🎮 Keyboard Shortcuts
 
-| Key            | Function                                       |
-|----------------|------------------------------------------------|
-| `Ctrl + Z`     | Undo                                           |
-| `Ctrl + S`     | Save (transparent PNG)                         |
-| `Ctrl + Q`     | Exit                                           |
-| `C`            | Clear canvas                                   |
-| `ESC`          | Exit (or cancel text input if active)          |
-| Hold `Ctrl`    | Temporary eraser (restores on release)         |
-| Hold `Shift`   | Temporary straight line (restores on release)  |
-| `Ctrl + Enter` | Confirm text (draw on canvas)                  |
-| Drawing ✎      | Single click → clear canvas + switch to mouse mode        |
-|                | Double click → keep drawing + switch to mouse mode        |
+| Key | Action |
+|---|---|
+| Ctrl + Z | Undo |
+| Ctrl + S | Save (transparent PNG) |
+| Ctrl + Q | Exit |
+| C | Clear canvas |
+| ESC | Exit (or cancel text input if active) |
+| Hold Ctrl | Temporary eraser (restores on release) |
+| Hold Shift | Temporary straight line (restores on release) |
+| Ctrl + Enter | Confirm text (draw on canvas) |
+
+**Drawing ✎ tool** — single click clears canvas then switches, double click switches while keeping your drawing.
 
 ---
 
