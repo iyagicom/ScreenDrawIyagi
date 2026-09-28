@@ -1,122 +1,61 @@
-# ScreenDrawIyagi v1.9.0
+# ScreenDrawIyagi
 
-![ScreenDrawing](screendrawing.png)
+**Draw right on your screen — circle it, point at it, highlight it. For presentations, lessons and screen shares. Windows and Linux.**
 
-A **screen annotation and drawing overlay tool** for Windows and Linux.
+[English](README.md) · [한국어](README_ko.md)
 
-Pick any color, adjust stroke width, fill shapes, highlight with semi-transparent emphasis, type text in your preferred font, and stamp emoji from a 9-category picker. Undo mistakes, save a snapshot, or clear everything at once.
+![ScreenDrawIyagi](screendrawing.png)
 
-Use the Drawing ✎ tool to temporarily switch to mouse mode and interact with apps on the desktop, then switch back to drawing mode. Switching with a single click clears your current drawing; switching with a double click preserves it when you return.
+## Why ScreenDrawIyagi?
 
-The floating toolbar can be dragged anywhere on screen, and your last settings are saved automatically so you're always ready.
+- **Point at exactly what you mean.** Pen, arrows, boxes and a highlighter over any app, slide or video — your audience stops asking "where?"
+- **Draw and click through.** One click switches back to the mouse so you can use the app underneath, then carry on drawing.
+- **Fast when you're live.** Hold `Ctrl` for a quick eraser, hold `Shift` for a straight line, `Ctrl+Z` to undo, `C` to wipe the screen.
+- **Stamps that grab attention.** 400+ emoji in 9 categories, stamped anywhere with one click.
+- **Keep what you drew.** Save the drawing as a transparent PNG.
+- **Works on Wayland.** GNOME Wayland and X11 on Linux, Windows 10/11.
 
----
+## Features
 
-## ✨ Features
+- Pen, line, arrow, rectangle, ellipse (with fill), text, highlighter, eraser
+- Emoji stamps — 9 categories, 400+ emoji
+- Any color, stroke width 1–120 px
+- Floating toolbar you can drag anywhere
+- Undo, clear, save as transparent PNG
+- Remembers your last color, width, font and tool
 
-### Drawing Tools
-* **Pen** — freehand drawing in any color and width
-* **Line / Arrow** — draw straight lines and directional arrows
-* **Rectangle / Ellipse** — draw shapes (with optional fill mode)
-* **Text** — type directly on screen with configurable font and size
-* **Emoji Stamp** — choose from 400+ emoji across 9 categories and stamp anywhere
-* **Eraser** — erase specific areas of your drawing
-* **Highlighter** — semi-transparent overlay to emphasize screen content
-* **Drawing ✎** — temporarily switch to mouse mode to interact with content underneath; single click clears canvas + switches, double click keeps drawing + switches
+![](ScreenDrawIyagi4.png)
 
-### Color & Style
-* **Color picker** — choose any pen color
-* **Stroke width** — adjust line thickness from 1 to 120px
-* **Fill mode** — toggle filled rectangles and ellipses
-* **Highlighter mode** — highlight existing screen content with transparency
+## Download
 
-### Emoji Picker
-* **9 categories** — Expressions / Hands & Body / Hearts / Animals / Food / Activities / Travel / Objects / Symbols
-* **Stamp mode** — click anywhere to stamp the selected emoji in a 3D ink style
-* **Text insert** — insert emoji directly into text input while typing
+**[⬇ Latest release](https://github.com/iyagicom/ScreenDrawIyagi/releases/latest)**
 
-### Convenience
-* **Undo** — step back to the previous state
-* **Snapshot** — save the current drawing as an image file
-* **Clear all** — reset the canvas
-* **Floating toolbar** — drag the toolbar anywhere on screen
-* **Settings persistence** — last used color, width, font, and tool are saved automatically
+| Your system | File to pick |
+|---|---|
+| Windows 10 / 11 | [Microsoft Store](https://apps.microsoft.com/search?query=ScreenDrawIyagi) |
+| Ubuntu 24.04 · Debian | `.deb` marked **ubuntu24.04** |
+| Ubuntu 26.04 | `.deb` marked **ubuntu26.04** |
+| Fedora · openSUSE | `.rpm` |
+| Arch · Manjaro | `.pkg.tar.zst` |
+| Any other Linux | `.AppImage` (run without installing) or `.zip` |
 
----
+```bash
+sudo apt install ./screendrawiyagi_*_amd64.deb   # Ubuntu / Debian
+sudo dnf install ./screendrawiyagi-*.rpm         # Fedora
+sudo pacman -U screendrawiyagi-*.pkg.tar.zst     # Arch
+```
 
-## 🎮 Keyboard Shortcuts
+## Shortcuts
 
 | Key | Action |
 |---|---|
-| Ctrl + Z | Undo |
-| Ctrl + S | Save (transparent PNG) |
-| Ctrl + Q | Exit |
-| C | Clear canvas |
-| ESC | Exit (or cancel text input if active) |
-| Hold Ctrl | Temporary eraser (restores on release) |
-| Hold Shift | Temporary straight line (restores on release) |
-| Ctrl + Enter | Confirm text (draw on canvas) |
+| `Ctrl+Z` | Undo |
+| `Ctrl+S` | Save as transparent PNG |
+| `C` | Clear the screen |
+| Hold `Ctrl` | Temporary eraser |
+| Hold `Shift` | Temporary straight line |
+| `Esc` | Exit |
 
-**Drawing ✎ tool** — single click clears canvas then switches, double click switches while keeping your drawing.
+## License
 
----
-
-## ⬇ Download
-
-### Windows
-Install from the Microsoft Store.
-(Store link coming soon)
-
-### Linux
-Download the binary from GitHub Releases.
-
-```bash
-chmod +x ScreenDrawIyagi
-./ScreenDrawIyagi
-```
-
----
-
-## 🐧 Linux Setup
-
-Qt6 platform plugins are required.
-
-```bash
-sudo apt install libqt6widgets6 libqt6-xcb-private-plugins
-```
-
-Emoji font (if not already installed):
-
-```bash
-sudo apt install fonts-noto-color-emoji
-```
-
-On Wayland, the app runs automatically via XWayland.
-
----
-
-## 🖥 Supported Platforms
-
-* Windows 10 / 11
-* Linux (GNOME Wayland / X11)
-
----
-
-## 👤 Author
-
-IYAGI INC
-Email: [iyagicom@gmail.com](mailto:iyagicom@gmail.com)
-GitHub: https://github.com/iyagicom
-
----
-
-## 📜 License
-Copyright (c) 2026 IYAGI INC. All rights reserved.
-
-This software is provided as executable files only. Source code is not publicly available.
-
-Linux version:
-You may use, install, package, and redistribute this software freely for any purpose, including personal, commercial, educational, governmental, and organizational use.
-
-Windows version:
-Distributed through the Microsoft Store. Usage and licensing are managed through the MS Store.
+[License](LICENSE) · [Privacy policy](privacy-policy.md)
